@@ -1,4 +1,5 @@
 # CIS557 Deployment Demo
+#### Author: [@tirthakharel](https://github.com/tirthakharel)
 
 Example deployment structure for React + Node.js applications
 
