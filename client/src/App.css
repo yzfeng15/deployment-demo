@@ -1,0 +1,66 @@
+@import '~antd/dist/antd.css';
+.logo {
+  float: left;
+  width: 200px;
+  height: 31px;
+  font-size: 20px;
+  margin-right: 5%;
+}
+
+.home-content {
+  display: flex;
+}
+
+.home-text {
+  margin-right: 50px;
+}
+
+.home-text h1,
+.about-text h1 {
+  font-size: 35px;
+}
+
+.home-text p,
+.about-text p,
+.about-text ol {
+  font-size: 20px;
+}
+
+.home-img {
+  width: 500px;
+}
+
+.outer {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+.ant-layout-header {
+  padding: 0 80px;
+}
+
+.ant-layout-content {
+  min-height: 600px;
+  background: rgb(255, 255, 255);
+}
+
+.site-layout-content {
+  height: 100%;
+  padding: 30px 40px;
+}
+
+.body-bg {
+  flex: 1;
+  background: rgb(224, 223, 223);
+  padding: 30px 80px;
+  height: 100%;
+}
+
+#basic {
+  margin-top: 10%;
+}
+
+#registration-form {
+  margin-top: 4%;
+}
