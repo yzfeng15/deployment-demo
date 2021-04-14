@@ -27,7 +27,7 @@ httpClient.getCurrentUser = function () {
 httpClient.logIn = function (email, password) {
   return this({
     method: 'post',
-    url: domain + '/login',
+    url: domain + '/api/login',
     data: { email, password },
   }).then((serverResponse) => {
     const token = serverResponse.data.token;
@@ -45,7 +45,7 @@ httpClient.logIn = function (email, password) {
 httpClient.signUp = function (email, password, firstName, lastName) {
   return this({
     method: 'post',
-    url: domain + '/register',
+    url: domain + '/api/register',
     data: { email, password, firstName, lastName },
   })
     .then((serverResponse) => true)
