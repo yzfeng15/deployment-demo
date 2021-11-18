@@ -11,11 +11,3 @@ jobs:
       name: Build
       script:
         - npm run build
-deploy:
-  provider: heroku
-  api_key:
-    secure: b2371e11-42f3-415c-ae61-80bb0a8091ae
-  on:
-    branches:
-      only:
-        - main
